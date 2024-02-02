@@ -45,6 +45,7 @@ include device/google/gs-common/bootctrl/bootctrl_aidl.mk
 include device/google/gs-common/betterbug/betterbug.mk
 include device/google/gs-common/recorder/recorder.mk
 include device/google/gs-common/fingerprint/fingerprint.mk
+include device/google/gs-common/wireless_charger/wireless_charger.mk
 
 include device/google/zumapro/dumpstate/item.mk
 
