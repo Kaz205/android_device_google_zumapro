@@ -16,5 +16,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/zumapro/linker.config.json
 
-# Touch
-include hardware/google/pixel/touch/device.mk
