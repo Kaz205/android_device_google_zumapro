@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2021-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2021-2024 The StatixOS Project
 # SPDX-FileCopyrightText: 2021-2024 The Calyx Institute
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -32,7 +32,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/statix/config/BoardConfigReservedSize.mk
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
