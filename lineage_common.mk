@@ -29,6 +29,3 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringOverlay
-
-# Touch
-include hardware/google/pixel/touch/device.mk
