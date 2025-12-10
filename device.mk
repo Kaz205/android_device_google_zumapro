@@ -222,7 +222,7 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 endif
 
 DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay
-DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay-statix
 
 # Enforce the Product interface
 PRODUCT_PRODUCT_VNDK_VERSION := current
