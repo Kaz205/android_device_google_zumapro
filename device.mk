@@ -678,20 +678,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
-
-$(call soong_config_set_bool,lineage_health,charging_control_supports_deadline,true)
-$(call soong_config_set_bool,lineage_health,charging_control_supports_limit,true)
-$(call soong_config_set_bool,lineage_health,charging_control_supports_toggle,false)
-
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/zumapro/linker.config.json
-
-# Parts
-PRODUCT_PACKAGES += \
-    GoogleParts
 
 # Properties
 TARGET_PRODUCT_PROP += device/google/zumapro/product.prop
@@ -700,6 +689,3 @@ TARGET_SYSTEM_EXT_PROP += device/google/zumapro/system_ext.prop
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringOverlay
-
-# Touch
-include hardware/google/pixel/touch/device.mk
