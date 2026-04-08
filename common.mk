@@ -396,19 +396,9 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay \
     FrameworkResOverlayProductZumapro \
     FrameworkResOverlayVendorZumapro \
-    GlanceableHubConfigOverlay \
-    GlanceableHubSettingsConfigOverlay \
-    GlanceableHubSettingsConfigOverlay2022 \
-    GlanceableHubSysuiConfigOverlay \
-    GoogleConfigOverlay \
-    GooglePermissionControllerSafetyCenterOverlay \
-    PixelConfigOverlay2019 \
-    PixelConfigOverlay2021 \
-    PixelConfigOverlayCommon \
     PixelConnectivityOverlay2024 \
     PixelDisplayServiceOverlayProductZumapro \
     PixelNfcOverlayCommon \
-    PixelTetheringOverlay2021 \
     PixelWifiOverlay2024_M25Zumapro \
     SafetyRegulatoryInfoOverlayProductZumapro \
     SettingsGoogleOverlayProductZumapro \
