@@ -23,6 +23,8 @@ TARGET_CPU_VARIANT := cortex-a55
 
 BOARD_BOOTCONFIG += \
     androidboot.boot_devices=13200000.ufs
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
 
 BOARD_KERNEL_CMDLINE += \
     fips140.load_sequential=1 \
