@@ -366,13 +366,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.location.gps.prebuilt.xml
 
-# Lineage Health
-include hardware/google/pixel/lineage_health/device.mk
-
-$(call soong_config_set_bool,lineage_health,charging_control_supports_deadline,true)
-$(call soong_config_set_bool,lineage_health,charging_control_supports_limit,true)
-$(call soong_config_set_bool,lineage_health,charging_control_supports_toggle,false)
-
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/zumapro/linker.config.json
@@ -427,10 +420,6 @@ PRODUCT_PACKAGES += \
     SettingsOverlayZumapro \
     SimpleDeviceConfigOverlayZumapro
 
-# Parts
-PRODUCT_PACKAGES += \
-    GoogleParts
-
 # Properties
 TARGET_PRODUCT_PROP += device/google/zumapro/product.prop
 TARGET_SYSTEM_EXT_PROP += device/google/zumapro/system_ext.prop
@@ -451,9 +440,6 @@ PRODUCT_PACKAGES += \
 # Telephony
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.carrierlock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.carrierlock.xml
-
-# Touch
-include hardware/google/pixel/touch/device.mk
 
 # ZRAM writeback
 include hardware/google/pixel/mm/device_gki.mk
